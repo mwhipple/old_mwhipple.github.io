@@ -1,0 +1,16 @@
+<header class="site-header row">
+  <div class="large-4 columns">
+    <a class="site-title" href="{{ site.baseurl }}/">
+    <h1>{{ site.title}}</h1>
+    </a>
+  </div>
+
+  <nav class="site-nav large-8">
+  <div class="trigger">
+    {% for page in site.pages %}
+    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endfor %}
+  </div>
+  </nav>
+
+  </header>
