@@ -1,5 +1,6 @@
 ---
 title: Welcome
+layout: post
 ---
 
 Welcome to the latest incarnation of my Web site.  Hopefully this is
