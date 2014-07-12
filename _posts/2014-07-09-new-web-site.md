@@ -4,8 +4,8 @@ layout: post
 ---
 
 Welcome to the latest incarnation of my Web site.  Hopefully this is
-one I'll finally actually keep up to date.  My last attempt used a
-bunch of technologies which were too far removed from what I was working with and not things I particularly wanted to spend time with and so the site quickly fell into abandon.
+one I'll finally actually keep up to date.  My last attempt at a Web site quickly fell into abandon as it used a
+bunch of technologies which were too far removed from what I was working with and not things I particularly wanted to spend time with
 
 This version is using GitHub Pages with [Jekyll](http://jekyllrb.com/) so it should be a good combination of simplicity, tools that I'm using on a regular basis and/or have interest in...and can be managed on my tablet which means that it can be worked on more readily in short windows of free time.
 
