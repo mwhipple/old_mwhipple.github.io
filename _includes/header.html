@@ -1,16 +1,25 @@
-<header class="site-header row">
-  <div class="large-4 columns">
-    <a class="site-title" href="{{ site.baseurl }}/">
+<header class="site-header">
+  <nav class="site-nav top-bar">
+<ul class="title-area">
+<li>
+  <a class="site-title" href="{{ site.baseurl }}/">
     <img src="/images/mw-logo.svg" alt="Matt Whipple"/>
     </a>
-  </div>
+</li>
+</ul>
 
-  <nav class="site-nav large-8">
-  <div class="trigger">
+<section class="top-bar-section">
+<ul class="right">
+  <li>
+  <a href="{{site.baseurl}}">Home/Posts</a>
     {% for page in site.pages %}
-    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-    {% endfor %}
-  </div>
+<li>
+  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  </li>
+  {% endfor %}
+
+
+</section>
   </nav>
 
   </header>
