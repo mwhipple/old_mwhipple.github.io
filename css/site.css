@@ -1,12 +1,16 @@
-.site-title img {
-    margin: 0 2em;
+.head-logo svg {
     width: 6em;
+    height: 3em;
+}
+.head-logo svg path {
+    fill: #fff;
 }
 
-.top-bar,
+/*.top-bar,
 .top-bar-section ul li,
 .top-bar-section ul li:not(.has-form) a:not(.button),
 .top-bar-section ul li:not(.has-form) a:not(.button):hover {
     background-color: #f5f5f5;
     color: #111;
-}
+}*/
+

@@ -1,25 +1,42 @@
-<header class="site-header">
-  <nav class="site-nav top-bar">
-<ul class="title-area">
-<li>
-  <a class="site-title" href="{{ site.baseurl }}/">
-    <img src="/images/mw-logo.svg" alt="Matt Whipple"/>
+<header>
+  <aside class="left-off-canvas-menu">
+    <ul class="off-canvas-list">
+      <li>
+	<a href="{{ "/" | prepend: site.baseurl}}">Home/Posts</a>
+      </li>
+      {% for page in site.pages %}
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <nav class="tab-bar show-for-small">
+    <a class="left-off-canvas-toggle menu-icon">
+      <span class="head-logo"><img src="/images/mw-logo.svg" alt="Matt Whipple"/></span>
     </a>
-</li>
-</ul>
-
-<section class="top-bar-section">
-<ul class="right">
-  <li>
-  <a href="{{ "/" | prepend: site.baseurl}}">Home/Posts</a>
-    {% for page in site.pages %}
-<li>
-  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-  </li>
-  {% endfor %}
-
-
-</section>
   </nav>
 
-  </header>
+  <nav class="site-nav top-bar hide-for-small" data-topbar><!-- TODO:Check site-nav, what does this dataset do? -->
+    <ul class="title-area">
+      <li class="name">
+	<a href="{{ site.baseurl }}/">
+	  <span class="head-logo"><img src="/images/mw-logo.svg" alt="Matt Whipple"/></span
+	</a>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+	<li class="divider"/>
+	<li>
+	  <a href="{{ "/" | prepend: site.baseurl}}">Home/Posts</a>
+	</li>
+	{% for page in site.pages %}
+	<li class="divider"/>
+	<li>
+	  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+	</li>
+	{% endfor %}
+      </ul>
+    </section>
+  </nav>
+</header>
