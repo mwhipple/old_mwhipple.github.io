@@ -20,18 +20,14 @@
     <ul class="title-area">
       <li class="name">
 	<a href="{{ site.baseurl }}/">
-	  <span class="head-logo"><img src="/images/mw-logo.svg" alt="Matt Whipple"/></span
+	  <span class="head-logo"><img src="/images/mw-logo.svg" alt="Matt Whipple"/></span>
 	</a>
       </li>
     </ul>
     <section class="top-bar-section">
       <ul class="right">
-	<li class="divider"/>
-	<li>
-	  <a href="{{ "/" | prepend: site.baseurl}}">Home/Posts</a>
-	</li>
 	{% for page in site.pages %}
-	<li class="divider"/>
+	<li class="divider"></li>
 	<li>
 	  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 	</li>

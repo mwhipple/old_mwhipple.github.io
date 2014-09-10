@@ -1,6 +1,6 @@
 ---
 title: Why Becoming a Casually Practicing Emacs-er is a Good Religious Choice
-layout: post
+layout: "post"
 ---
 _This is a repost of a blog post I originally posted on July 7th, 2012 to unnaturalcode.blogspot.com.  I will occasionally be consolidating posts to this site.  This one is expected to be a thematic prelude to future posts._
 

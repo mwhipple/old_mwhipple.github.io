@@ -1,17 +1,16 @@
 # Site settings
-title: Matt Whipple
-email: matt@mattwhipple.com
+title: "Matt Whipple"
+email: "matt@mattwhipple.com"
 description: "Web site for computer programmer Matt Whipple"
 baseurl: ""
 url: "http://www.mattwhipple.com"
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+#markdown: kramdown
+#permalink: pretty
 
 defaults:
-  - 
-    scope:
+  - scope:
       path: ""
       type: "post"
     values:
