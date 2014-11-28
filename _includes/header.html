@@ -5,14 +5,16 @@
 	<a href="{{ "/" | prepend: site.baseurl}}">Home/Posts</a>
       </li>
       {% for page in site.pages %}
-      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
   </aside>
 
   <nav class="tab-bar show-for-small">
     <a class="left-off-canvas-toggle menu-icon">
-      <span class="head-logo"><img src="/images/mw-logo.svg" alt="Matt Whipple"/></span>
+      <span class="head-logo">
+	<img src="/images/mw-logo.svg" alt="Matt Whipple"/>
+      </span>
     </a>
   </nav>
 
@@ -20,7 +22,9 @@
     <ul class="title-area">
       <li class="name">
 	<a href="{{ site.baseurl }}/">
-	  <span class="head-logo"><img src="/images/mw-logo.svg" alt="Matt Whipple"/></span>
+	  <span class="head-logo">
+	    <img src="/images/mw-logo.svg" alt="Matt Whipple"/>
+	  </span>
 	</a>
       </li>
     </ul>

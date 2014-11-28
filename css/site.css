@@ -1,6 +1,20 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.off-canvas-wrap, .inner-wrap {
+    min-height: 100%;
+}
+.off-canvas-wrap {
+    height: 100%;
+    overflow-y: auto;
+}
+
 .head-logo svg {
     width: 6em;
-    height: 3em;
+    height: 2.7em;
+    padding-top: 0.1em;
 }
 .head-logo svg path {
     fill: #fff;
