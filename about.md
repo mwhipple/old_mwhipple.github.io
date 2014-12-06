@@ -4,7 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'm a computer programmer with interest in diverse approaches to
-solutions.  
-
-My day job is spent writing enterprise Web apps using Java & Javascript.
+I'm a software engineer who spends his day job writing enterprise Web apps using Java & Javascript and personal time exploring diverse technologies.
