@@ -1,0 +1,6 @@
+* TODO Fix order of pages
+* TODO Better social icons
+* TODO Rip off some designs...
+* TODO Eliminate FOUC
+* TODO Separate JS from DOM
+* TODO Integrate and verify Google Analytics
