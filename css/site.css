@@ -19,3 +19,8 @@ body, html {
 .head-logo svg path {
     fill: #fff;
 }
+
+/* The img will be replaced with an inline SVG so this prevents the FOUC */
+.head-logo > img {
+    display: none;
+}
