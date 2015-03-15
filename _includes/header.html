@@ -1,16 +1,12 @@
 <header>
   <aside class="left-off-canvas-menu">
-    <ul class="off-canvas-list">
-      {% for page in site.pages %}
-      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
+    {% include top_nav.html ulClass="off-canvas-list" %}
   </aside>
 
   <nav class="tab-bar show-for-small">
     <a class="left-off-canvas-toggle menu-icon">
       <span class="head-logo">
-	<img src="/images/mw-logo.svg" alt="Matt Whipple"/>
+        <img src="/images/mw-logo.svg" alt="Matt Whipple"/>
       </span>
     </a>
   </nav>
@@ -18,22 +14,15 @@
   <nav class="site-nav top-bar hide-for-small" data-topbar><!-- TODO:Check site-nav, what does this dataset do? -->
     <ul class="title-area">
       <li class="name">
-	<a href="{{ site.baseurl }}/">
-	  <span class="head-logo">
-	    <img src="/images/mw-logo.svg" alt="Matt Whipple"/>
-	  </span>
-	</a>
+        <a href="{{ site.baseurl }}/">
+          <span class="head-logo">
+            <img src="/images/mw-logo.svg" alt="Matt Whipple"/>
+          </span>
+        </a>
       </li>
     </ul>
     <section class="top-bar-section">
-      <ul class="right">
-	{% for page in site.pages %}
-	<li class="divider"></li>
-	<li>
-	  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-	</li>
-	{% endfor %}
-      </ul>
+      {% include top_nav.html ulClass="right" %}
     </section>
   </nav>
 </header>
