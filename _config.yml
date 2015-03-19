@@ -4,6 +4,10 @@ description: "Web Site for Software Engineer Matt Whipple"
 baseurl: "" #Relative root prefix
 url: "http://www.mattwhipple.com"
 
+collections:
+  projects:
+    output: true
+
 defaults:
   -
     scope:
