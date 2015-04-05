@@ -8,6 +8,9 @@ collections:
   projects:
     output: true
 
+kramdown:
+  input: GFM
+
 defaults:
   -
     scope:
