@@ -1,0 +1,15 @@
+* Topics
+** TODO image magick
+** TODO gnucash report overview
+** TODO cheap drive client wrapper
+** TODO LogMan RIP
+** TODO Travis publishing back from the dead
+** TODO emacs
+* Enhancements
+** TODO Switch to posts
+** TODO About me
+** TODO Google Analytics
+** TODO Disqus
+** TODO Add logo
+** TODO Foundation
+** TODO Contact footer

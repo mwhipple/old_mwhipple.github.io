@@ -4,22 +4,11 @@ description: "Web Site for Software Engineer Matt Whipple"
 baseurl: "" #Relative root prefix
 url: "http://www.mattwhipple.com"
 
-collections:
-  projects:
-    output: true
-
 kramdown:
   input: GFM
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "post"
-    values:
-      layout: "post"
+      layout: "default"

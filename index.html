@@ -1,15 +1,29 @@
 ---
 title: Home
 ---
-<h2>Recent Posts</h2>
-<ul>
-{% for post in site.posts %}
- <li>
-   {{ post.date | date: "%b %-d, %Y" }} - <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
-   {{post.excerpt}}
- </li>
-{% endfor %}
-</ul>
-
-<h2>About Me</h2>
-<p>I'm a Boston, MA based software engineer who enjoys tinkering with open source and trying to find solutions that match specific problems.</p>
+<hgroup>
+  <h1>Web site, take n</h1>
+  <h2>2016-08-24</h4>
+</hgroup>
+<p><img src="images/joshua_tree.jpg"/></p>
+<p>I'm launching a new Web site/blog for some of my work (yay!). It's
+  not much to look at the moment but I'll be incrementally improving
+  the design so it will probably be pretty snazzy by the time I
+  retire or so.</p>
+<p>I'm turning my attention back to attempting to blog because I
+  find that I mostly interact with the Internet in a way that aligns
+  with static'ish Web sites and blogging: preferring more unidirectional
+  asynchronous batching rather than the generally more high touch
+  social media model (in which I tend to participate just sporadically
+  enough to eke out something resembling an existence).
+  The more asynchronous, on-demand nature of Web sites also aligns with
+  at least one of the biases asserted in Douglas Rushkoff's
+  <a href="http://www.rushkoff.com/books/program-or-be-programmed/">
+    <cite>Program or Be Programmed</cite></a></p>
+<p>I plan to write a short blog entry every week covering some
+  technical topic which may or may not be of much use to anyone
+  other than me, in addition to jazzing up the site in some way or
+  another as part of the same commit. Each post will also contain a
+  picture, hopefully in some way related to the post but probably
+  not...but either way it will help me conquer my aversion of adding
+  images to Web sites and spur me to organize some of my photos.</p>
