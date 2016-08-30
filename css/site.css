@@ -1,0 +1,21 @@
+header {
+    padding: 0em 5em;
+    text-align: right;
+}
+main {
+    padding: 5em;
+}
+.post-img {
+    padding: 0em 1em;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+article {
+    clear: both;
+    padding-top: 2em;
+}
