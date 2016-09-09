@@ -6,12 +6,12 @@
 ** TODO emacs
 ** TODO Google interview
 * Enhancements
-** TODO Switch to posts
-** TODO Adopt font
-** TODO About me
+** TODO Twitter integration
 ** TODO Google Analytics
+** TODO About me
 ** TODO Disqus
 ** TODO Add logo
 ** TODO Foundation
 ** TODO Contact footer
 ** TODO rakefile dev task
+** TODO resume

@@ -37,7 +37,7 @@ new Web site).
 Perhaps most importantly, Guile is supporting multiple languages
 including Lua and JavaScript/ECMAScript which will make it far more
 likely to be adopted by greedy developers who want more from their
-language than parentheses.  Mollified about possibly trying to
+language than Scheme's parentheses. Mollified about possibly trying to
 resurrect long dead code, further investigation has piqued my interest
 about Guile. [insert beguile pun]
 

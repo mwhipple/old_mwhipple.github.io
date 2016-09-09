@@ -34,9 +34,11 @@ which can be used to belatedly tag or rename image files and
 `convert` can be used to quickly modify an image for uses
 such as sticking on a Web site. The photo on this page was
 re-sized and rotated from my photo library with:
-```
+
+```bash
 convert 20140614_Bay_Bridge.jpg -resize 8% -rotate 90 bay-bridge.jpg
-``
+```
+
 A huge perk for me of preferring ImageMagick commands over using a
 graphics editor is that source files are likely to be consistent
 dimensions (whatever the camera uses) are the desired renditions
