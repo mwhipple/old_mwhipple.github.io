@@ -1,11 +1,11 @@
 * Topics
 ** TODO gnucash report overview
 ** TODO cheap drive client wrapper
-** TODO LogMan RIP
 ** TODO Travis publishing back from the dead
 ** TODO emacs
 ** TODO Google interview
 * Enhancements
+** TODO Provide per post page links
 ** TODO Twitter integration
 ** TODO Google Analytics
 ** TODO About me

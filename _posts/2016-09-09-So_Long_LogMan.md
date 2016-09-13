@@ -1,13 +1,9 @@
 ---
-Title: So Long LogMan
+title: So Long LogMan
 ---
 
-# So Long LogMan
-
-#### 2016-09-09
-
 <div class="post-img fl">
-    <img src="images/unfinished_walk.jpg"
+    <img src="/images/unfinished_walk.jpg"
         title="An abandoned walk"/>
 </div>
 

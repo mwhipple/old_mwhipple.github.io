@@ -1,4 +1,12 @@
 ---
 title: Home
 ---
-{% for post in site.posts %}{{post}}{% endfor %}
+{% for post in site.posts %}
+<article>
+  <a href="{{post.url}}"><hgroup>
+      <h1>{{post.title}}</h1>
+      <h4>{{post.date | date_to_string}}</h4>
+  </hgroup></a>
+  {{post.content}}
+</article>
+{% endfor %}

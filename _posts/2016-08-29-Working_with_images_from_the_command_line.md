@@ -2,10 +2,6 @@
 title: Working with images from the command line
 ---
 
-# Working with images from the command line
-
-#### 2016-08-29
-
 <div class="post-img fl">
   <img src="images/bay-bridge.jpg"
       title="Bay Bridge, from San Francisco;
@@ -35,9 +31,9 @@ which can be used to belatedly tag or rename image files and
 such as sticking on a Web site. The photo on this page was
 re-sized and rotated from my photo library with:
 
-```bash
+{% highlight bash %}
 convert 20140614_Bay_Bridge.jpg -resize 8% -rotate 90 bay-bridge.jpg
-```
+{% endhighlight %}
 
 A huge perk for me of preferring ImageMagick commands over using a
 graphics editor is that source files are likely to be consistent

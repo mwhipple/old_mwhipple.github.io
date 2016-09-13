@@ -1,11 +1,6 @@
 ---
-Title: Hacking on GnuCash (Origin Story)
+title: Hacking on GnuCash (Origin Story)
 ---
-
-# Hacking on GnuCash (Origin Story)
-
-#### 2016-09-01
-
 <div class="post-img fr">
     <img src="images/gnu.jpg" title="A gnu in the wild, Kruger National Park"/>
 </div>
