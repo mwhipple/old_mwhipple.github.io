@@ -25,7 +25,7 @@ command line, and the command line has the excellent de facto
 standard suite of utilities
 [ImageMagick](http://www.imagemagick.org)
 Additional metadata from
-a photo file can be listed using `identify --verbose filename`
+a photo file can be listed using `identify -verbose filename`
 which can be used to belatedly tag or rename image files and
 `convert` can be used to quickly modify an image for uses
 such as sticking on a Web site. The photo on this page was
