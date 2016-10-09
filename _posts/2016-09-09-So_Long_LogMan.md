@@ -3,7 +3,7 @@ title: So Long LogMan
 ---
 
 <div class="post-img fl">
-    <img src="/images/unfinished_walk.jpg"
+    <img src="/images/unfinished-walk.jpg"
         title="An abandoned walk"/>
 </div>
 

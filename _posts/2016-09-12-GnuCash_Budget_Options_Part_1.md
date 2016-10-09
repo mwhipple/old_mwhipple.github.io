@@ -1,5 +1,5 @@
 ---
-title: Hacking on GnuCash (Options, Part 1)
+title: Hacking on GnuCash (Options, Part 1-Retrieval)
 ---
 
 <div class="post-img fr">
@@ -57,6 +57,15 @@ The above creates a closure around the provided name and section,
 and returns a function which will dispatch
 to a nested function within the closure based on the first parameter, for
 instance: `(define opt-foo (opt "Foo" (N_ "Sec1"))) (opt-foo 'name)`.
+
+There may be other, possibly better, options to handle the object style
+behavior started above such as using either records or GOOPS...but as
+I'm not presently familiar enough with the approaches to choose one
+over the other, I'm starting with the one based on the most basic
+functional approaches. I may revisit the decision after becoming more
+familiar with Scheme/Guile but that would just happen incidentally
+since the present approach works and I'll only be diving more deeply
+into the related solutions somewhat passively.
 
 The report object isn't really owned by the option and so must be
 passed as another argument. The `apply` above will forward the
@@ -123,30 +132,3 @@ and sometimes not, but now laziness may be less of a factor.
 The above code by itself doesn't help with option
 definition/registration and could lead to painful code or segmented
 logic...
-
-
-
-
-<!--
-
-defined. At the top of the file is a long flat list of forms such as:
-
-{% highlight Scheme %}
-(define opthelp-show-zb-accounts
-  (N_ "Include accounts with zero total (recursive) balances
-  and budget values in this report."))
-...
-(add-option
-  (gnc:make-simple-boolean-option
-   gnc:pagename-display optname-show-zb-accounts
-   "s5" opthelp-show-zb-accounts #t))
-{% endhighlight %}
-
-Visually everything runs together a bit and the fact that the list is
-flat also does not really align with the grouping created in the
-options dialog (groupings are simply matching parameters).
-My initial pass was to rework that code to allow for
-specifying the options as a more declarative hierarchy, but after
-spending more time with the code I also wanted to update the way the
-options are accessed where the above option wold be accessed by some
--->

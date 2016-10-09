@@ -2,7 +2,7 @@
 title: Hacking on GnuCash (Origin Story)
 ---
 <div class="post-img fr">
-    <img src="images/gnu.jpg" title="A gnu in the wild, Kruger National Park"/>
+    <img src="/images/gnu.jpg" title="A gnu in the wild, Kruger National Park"/>
 </div>
 
 I've been a long time on-and-off user of [GnuCash](http://www.gnucash.org)

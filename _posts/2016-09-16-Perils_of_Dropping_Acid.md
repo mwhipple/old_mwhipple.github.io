@@ -2,7 +2,7 @@
 title: The Perils of Dropping ACID Transactionality
 ---
 <div class="post-img fl">
-    <img src="images/walter_bishop.jpg"
+    <img src="/images/walter-bishop.jpg"
         title="Sometimes dropping helps, other times not so much"/>
 </div>
 
@@ -50,7 +50,7 @@ amount of work for the secondary, etc. pieces in proportion to the
 importance. The overhead of transactions suddenly seemed a much more
 worthwhile price to pay.
 
-There are libraries and approaches to add ACID transactionas to
+There are libraries and approaches to add ACID transactions to
 some of the NoSQL stores including MongoDB, but
 I'm not about to cash in my chips on avoiding them;
 it should get easier as recipes are acquired and a lot

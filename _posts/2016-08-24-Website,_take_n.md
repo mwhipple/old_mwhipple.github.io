@@ -3,7 +3,7 @@ title: Website, take n
 ---
 
 <div class="post-img fr">
-    <img src="images/joshua_tree.jpg" title="Joshua Tree National Park;
+    <img src="/images/joshua-tree.jpg" title="Joshua Tree National Park;
 this site is a desert"/>
 </div>
 

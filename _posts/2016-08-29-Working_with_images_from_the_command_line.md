@@ -3,7 +3,7 @@ title: Working with images from the command line
 ---
 
 <div class="post-img fl">
-  <img src="images/bay-bridge.jpg"
+  <img src="/images/bay-bridge.jpg"
       title="Bay Bridge, from San Francisco;
 the line about crossing a bridge was inadvertent but appreciated">
 </div>
