@@ -21,6 +21,8 @@ objects created in the previous post the scattering can be removed and
 the single list can be structured to reflect the resultant
 grouping.
 
+<!--more-->
+
 Much of the standard registration code calls a function of the pattern:
 
 {% highlight Scheme %}
