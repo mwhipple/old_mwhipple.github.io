@@ -19,6 +19,8 @@ to bits about scaling and sharding and the CAP theorem: transactions
 are expensive and incur a significant performance hit...so I also look
 forward to the opportunity to try avoid them.
 
+<!--more-->
+
 Sometimes avoiding transactions and embracing some kind of
 event-sourced, eventually-consistent other-new-buzzword system can be
 easy, but other times you need some of the more traditional

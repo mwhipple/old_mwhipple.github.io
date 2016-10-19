@@ -18,7 +18,12 @@ getting my feet wet with Scheme.
 
 When trying to get my head around the original budget report, one of
 the first obstacles was processing the way options are handled,
-starting with look-ups (which I really ended with but is a simpler topic).
+starting with looking up option values (I actually ended with value
+retrieval but its simpler logic than registration). So here's some
+scheming to try to make that a little more readable (for me at least).
+
+<!--more-->
+
 A standard option look-up is some derivative of:
 
 {% highlight Scheme %}

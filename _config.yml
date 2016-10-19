@@ -4,6 +4,7 @@ description: "Web Site for Software Engineer Matt Whipple"
 baseurl: "" #Relative root prefix
 url: "http://www.mattwhipple.com"
 excerpt_separator: <!--more-->
+paginate: 5
 
 kramdown:
   input: GFM

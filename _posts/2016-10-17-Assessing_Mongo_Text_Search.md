@@ -11,6 +11,7 @@ Versions of MongoDB since 2.4 have integrated supported for full-text
 searches...but just how useful is it? It certainly offers greater
 convenience than a dedicated search solution but a cost is paid in
 some significant limitations.
+
 <!--more-->
 
 A while ago I worked on a solution using the text index feature in
