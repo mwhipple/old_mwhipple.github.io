@@ -3,8 +3,7 @@ title: Mutable Accumulators in Scheme
 ---
 
 <div class="post-img fr">
-  <img src="/images/flowers.jpg"
-     title="Accumulating Flowers"/>
+  <img src="/images/flowers.jpg" title="Accumulating Flowers"/>
 </div>
 
 Scheme is agnostic about immutability....I prefer it

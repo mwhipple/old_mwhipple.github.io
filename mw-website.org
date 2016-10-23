@@ -4,22 +4,20 @@
 - [ ] Parameter assertion
 - [ ] Async data collection
 ** TODO GnuCash
-- [ ] folding atom
 - [ ] option types
 ** TODO cheap drive client wrapper
 ** TODO Travis publishing back from the dead
 ** TODO emacs
 ** TODO Google interview
 ** TODO CompileStatic, groovy dot accessing
-** TODO Sproogle EOL
 Art of the MOP
+** TODO Sproogle EOL
 ** Statistics
 - [ ] Texas Sharpshooter Fallacy
 * Enhancements
-** TODO Pagination
+** TODO Add link back to home from post
 ** TODO Add container around excerpt to group next to image
 ** TODO Generate better markup from markdown
-** TODO Disqus
 ** TODO Twitter integration
 ** TODO Google Analytics
 ** TODO About me
