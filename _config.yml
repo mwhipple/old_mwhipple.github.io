@@ -9,6 +9,9 @@ paginate: 5
 kramdown:
   input: GFM
 
+gems:
+  - jekyll-feed
+
 defaults:
   - scope:
       path: ""

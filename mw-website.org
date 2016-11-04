@@ -30,3 +30,4 @@ Art of the MOP
 ** TODO jekyll SEO tag plugin
 ** TODO links directly to github sources
 ** TODO Emoji
+** TODO AMP
