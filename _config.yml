@@ -11,6 +11,7 @@ kramdown:
 
 gems:
   - jekyll-feed
+  - jemoji
 
 defaults:
   - scope:

@@ -19,7 +19,6 @@ Art of the MOP
 ** TODO Add container around excerpt to group next to image
 ** TODO Generate better markup from markdown
 ** TODO Twitter integration
-** TODO Google Analytics
 ** TODO About me
 ** TODO Add logo
 ** TODO Foundation
