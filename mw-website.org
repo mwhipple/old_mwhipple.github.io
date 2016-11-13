@@ -1,5 +1,6 @@
 * Topics
-** Emacs config
+** Telling the truth is hard
+** Timezone stuff
 ** Spock Recipes
 - [ ] Parameter assertion
 - [ ] Async data collection
@@ -7,20 +8,19 @@
 - [ ] option types
 ** TODO cheap drive client wrapper
 ** TODO Travis publishing back from the dead
-** TODO emacs
-** TODO Google interview
 ** TODO CompileStatic, groovy dot accessing
 Art of the MOP
 ** TODO Sproogle EOL
 ** Statistics
 - [ ] Texas Sharpshooter Fallacy
 * Enhancements
+** TODO Move post image to page configuration
+** TODO Add logo
+** TODO Integrate font-awesome
 ** TODO Add link back to home from post
 ** TODO Add container around excerpt to group next to image
 ** TODO Generate better markup from markdown
-** TODO Twitter integration
 ** TODO About me
-** TODO Add logo
 ** TODO Foundation
 ** TODO Contact footer
 ** TODO rakefile dev task
@@ -30,3 +30,4 @@ Art of the MOP
 ** TODO links directly to github sources
 ** TODO Emoji
 ** TODO AMP
+** TODO minima?

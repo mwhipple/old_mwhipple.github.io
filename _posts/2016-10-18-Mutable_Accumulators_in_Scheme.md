@@ -53,7 +53,7 @@ much simpler than the description). Right now I'm abusing the name
 
 {% highlight Scheme %}
 (define (accumulator f init)
-  (let* ((accum init))
+  (let* ([accum init])
     (define* (updater #:optional val)
       (if val
           (begin
@@ -93,3 +93,10 @@ powerful but it scratches a couple immediate itches. In addition to
 the table location tracking I'm also using it for keeping track of
 running totals in GnuCash by using accumulators with `gnc-numeric-add`
 and `gnc-numeric` parameters.
+
+### Update (2016-11-06)
+
+I've decided to spend some quality time formally learning Scheme,
+and this approach is (not surprisingly) fairly standard and
+seems to be a slight extension of `make-counter` desribed in
+[The Scheme Programming Language by Kent Dybvig](http://scheme.com/tspl4/start.html).
