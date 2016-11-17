@@ -1,12 +1,9 @@
 ---
 title: Working with images from the command line
+post_img:
+  src: bay-bridge.jpg
+  title: the line about crossing a bridge was inadvertent but appreciated
 ---
-
-<div class="post-img fl">
-  <img src="/images/bay-bridge.jpg"
-      title="Bay Bridge, from San Francisco;
-the line about crossing a bridge was inadvertent but appreciated">
-</div>
 
 This post is mostly regurgitating readily available information:
 mostly for my future reference and I may do something more
@@ -19,6 +16,8 @@ photo organizing software that I've tried has seemed too needy; I'm not
 looking for the kind of commitment where I cede control of the
 underlying storage or have to devote more than a couple seconds at
 a time.
+
+<!--more-->
 
 My usual workflow and the above constraints lead me to the
 command line, and the command line has the excellent de facto
@@ -44,4 +43,4 @@ cropping or any other manipulations, but hopefully my laziness can
 keep from having to cross that bridge for a while.
 
 All the ImageMagick goodness is covered in the man pages and
-(presumably) on the [site](http://www.imagemagick.org).
+(presumably) on the [site](http://www.imagemagick.org). :camera:

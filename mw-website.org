@@ -1,6 +1,7 @@
 * Topics
 ** Telling the truth is hard
-** Timezone stuff
+** Emacs
+*** File Name Cache
 ** Spock Recipes
 - [ ] Parameter assertion
 - [ ] Async data collection

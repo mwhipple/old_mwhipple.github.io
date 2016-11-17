@@ -1,11 +1,9 @@
 ---
 title: Website, take n
+post_img:
+  src: joshua-tree.jpg
+  title: This site is a desert
 ---
-
-<div class="post-img fr">
-    <img src="/images/joshua-tree.jpg" title="Joshua Tree National Park;
-this site is a desert"/>
-</div>
 
 I'm launching a new Web site/blog for some of my work (yay!). It's
 not much to look at the moment but I'll be incrementally improving
@@ -29,4 +27,4 @@ other than me, in addition to jazzing up the site in some way or
 another as part of the same commit. Each post will also contain a
 picture, hopefully in some way related to the post but probably
 not...but either way it will help me conquer my aversion of adding
-images to Web sites and spur me to organize some of my photos.
+images to Web sites and spur me to organize some of my photos. :boom:

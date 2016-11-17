@@ -22,16 +22,15 @@ header {
 main {
     padding: 5em;
 }
+
 .post-img {
     padding: 0em 1em;
-}
-
-.fl {
-    float: left;
-}
-.fr {
     float: right;
 }
+.posts article:nth-child(even) .post-img {
+    float: left;
+}
+
 article {
     clear: both;
     padding-top: 2em;

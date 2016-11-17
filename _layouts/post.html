@@ -6,7 +6,10 @@ layout: "default"
   <h4>{{page.date | date_to_string}}</h4>
 </hgroup>
 <article>
-{{content}}
-{% include tweet.html %}
+  {% if page.post_img %}
+    {% include post_img.html img=page.post_img %}
+  {% endif %}
+  {{content}}
+  {% include tweet.html %}
 </article>
 {% include disqus.html %}

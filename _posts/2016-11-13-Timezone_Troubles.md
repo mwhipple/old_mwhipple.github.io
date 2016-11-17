@@ -1,11 +1,9 @@
 ---
 title: Timezone Troubles
+post_img:
+  src: pumpkin.jpg
+  title: Timezone shifted coaches
 ---
-
-<div class="post-img fr">
-	<img src="/images/pumpkin.jpg"
-	  title="Timezone shifted coaches"/>
-</div>
 
 Date and time values are ubiquitious in programming (as in the modern
 world). Unfortunately the domain of time is full of quirks which are
