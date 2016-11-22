@@ -1,10 +1,9 @@
 ---
 title: Mutable Accumulators in Scheme
+post_img:
+  src: flowers
+  title: Flowers mutate and accumulate
 ---
-
-<div class="post-img fr">
-  <img src="/images/flowers.jpg" title="Accumulating Flowers"/>
-</div>
 
 Scheme is agnostic about immutability....I prefer it
 in Lisps since it seems to fit the structure of the language well
@@ -99,4 +98,4 @@ and `gnc-numeric` parameters.
 I've decided to spend some quality time formally learning Scheme,
 and this approach is (not surprisingly) fairly standard and
 seems to be a slight extension of `make-counter` desribed in
-[The Scheme Programming Language by Kent Dybvig](http://scheme.com/tspl4/start.html).
+[The Scheme Programming Language by Kent Dybvig](http://scheme.com/tspl4/start.html). :hibiscus:

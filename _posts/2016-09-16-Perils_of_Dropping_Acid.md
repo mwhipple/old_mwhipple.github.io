@@ -1,10 +1,9 @@
 ---
 title: The Perils of Dropping ACID Transactionality
+post_img:
+  src: walter-bishop.jpg
+  title: Sometimes dropping helps, othertimes not so much
 ---
-<div class="post-img fl">
-    <img src="/images/walter-bishop.jpg"
-        title="Sometimes dropping helps, other times not so much"/>
-</div>
 
 ACID compliant transactionality has been part and parcel of
 RDBMS-backed enterprise software development for years, but its absence or
@@ -57,4 +56,4 @@ some of the NoSQL stores including MongoDB, but
 I'm not about to cash in my chips on avoiding them;
 it should get easier as recipes are acquired and a lot
 of the approaches to ensure consistency are of general use for things
-like concurrency. Presently I count it as exhausting time well spent.
+like concurrency. Presently I count it as exhausting time well spent. :droplet:

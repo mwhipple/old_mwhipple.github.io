@@ -1,11 +1,9 @@
 ---
 title: Hacking on GnuCash (Options, Part 2-Registration)
+post_img:
+  src: tasty-options.jpg
+  title: Lobster Truffle Mac & Cheese Bites
 ---
-
-<div class="post-img fr">
-    <img src="/images/tasty-options.jpg"
-        title="Lobster Truffle Mac &amp; Cheese Bites"/>
-</div>
 
 In a [previous post]({% post_url 2016-09-12-GnuCash_Budget_Options_Part_1 %})
 I worked on easing the retrieval of option values for a given GnuCash
@@ -155,3 +153,4 @@ opinion that this would be a better job for macros as it is primarily
 design time sugar rather than having logical significance...but I've
 yet to spend any time with macros in Scheme and the change seems
 fairly low value so it will be deferred indefinitely for the time being.
+:money_with_wings:

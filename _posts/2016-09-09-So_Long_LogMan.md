@@ -1,11 +1,9 @@
 ---
 title: So Long LogMan
+post_img:
+  src: unfinished-walk.jpg
+  title: Good Hope unresolved
 ---
-
-<div class="post-img fl">
-    <img src="/images/unfinished-walk.jpg"
-        title="An abandoned walk"/>
-</div>
 
 One of my GitHub projects lingering around is
 [LogMan](https://github.com/mwhipple/logman): an interface for
@@ -19,4 +17,4 @@ usability of such tools then that may be a symptom of deeper issues.
 
 In light of that LogMan is now abandon-ware. On the off chance
 someone finds it useful or interesting then it should be simple enough
-to take over.
+to take over. :closed_book:

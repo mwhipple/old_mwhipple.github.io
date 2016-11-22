@@ -15,8 +15,8 @@ Art of the MOP
 ** Statistics
 - [ ] Texas Sharpshooter Fallacy
 * Enhancements
-** TODO Move post image to page configuration
-** TODO Add logo
+** TODO Add link to prev/next posts
+** TODO tags
 ** TODO Integrate font-awesome
 ** TODO Add link back to home from post
 ** TODO Add container around excerpt to group next to image
@@ -32,3 +32,5 @@ Art of the MOP
 ** TODO Emoji
 ** TODO AMP
 ** TODO minima?
+** TODO Footer from sumo blog?
+** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html

@@ -1,11 +1,9 @@
 ---
 title: Hacking on GnuCash (Options, Part 1-Retrieval)
+post_img:
+  src: options.jpg
+  title: Options on a mountaintop
 ---
-
-<div class="post-img fr">
-    <img src="/images/options.jpg"
-        title="Options on a mountaintop"/>
-</div>
 
 As outlined [here]({% post_url 2016-09-01-Hacking_on_GnuCash %}), I'm
 spending some time noodling around with GnuCash to attempt to bend it
@@ -136,4 +134,4 @@ and sometimes not, but now laziness may be less of a factor.
 
 The above code by itself doesn't help with option
 definition/registration and could lead to painful code or segmented
-logic...
+logic... :moneybag:

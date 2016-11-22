@@ -115,9 +115,3 @@ consistent declarative framework.
 This is an incredibly simple example ending with
 a fairly grandioise outline of what could be done...but this is all I
 need at the moment. :non-potable_water:
-
-
-
-
-
-

@@ -1,10 +1,9 @@
 ---
 title: My Emacs Config
+post_img:
+  src: chicken.jpg
+  title: Daily chicken
 ---
-
-<div class="post-img fl">
-    <img src="/images/chicken.jpg" title="Daily Chicken"/>
-</div>
 
 Emacs has a rich set of built-in functionality but it also has a vast
 ecosystem of easily installed packages of varying quality. I found
@@ -19,4 +18,4 @@ The new config will serve to customize my emacs install and also
 document provided behavior (such as standard key bindings) with
 incremental commits (ideally more than once a day). Packages will be
 included as they are assessed, but built-in functionality will be
-explored first (working with emacs snapshots as the base).
+explored first (working with emacs snapshots as the base). :chicken:

@@ -1,11 +1,9 @@
 ---
 title: Assessing MongoDb Text Search
+post_img:
+  src: mongo-hoodie.jpg
+  title: Mongo swag
 ---
-
-<div class="post-img fl">
-    <img src="/images/mongo-hoodie.jpg"
-        title="Mongo Swag Detail"/>
-</div>
 
 Versions of MongoDB since 2.4 have integrated supported for full-text
 searches...but just how useful is it? It certainly offers greater
@@ -100,4 +98,4 @@ outside of the core domain of what MongoDB provides and could
 therefore be a great opportunity to engage the open source community
 to create or contribute to a potentially innovative solution but
 instead there's an offering which seems just powerful enough to add a
-bullet point to a sales sheet.
+bullet point to a sales sheet. :mag:

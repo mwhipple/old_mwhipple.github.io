@@ -1,11 +1,9 @@
 ---
 title: Programming Interviews-Work Down
+post_img:
+  src: apple-pie.jpg
+  title: Use the imaginary mix
 ---
-
-<div class="post-img fr">
-	<img src="/images/apple-pie.jpg"
-		title="Use the imaginary mix"/>
-</div>
 
 It can be hard enough to program with a co-worker looking over your
 shoulder, but replace that co-worker with an interviewer and swap out
@@ -62,5 +60,4 @@ The above approach has had very good
 results for me in the past when I've been organized enough to do it
 ...call an imaginary object while describing its behavior and
 save 5 minutes here and there....possibly leave enough time to be
-given another programming puzzle (yey).
-
+given another programming puzzle. :sunglasses:

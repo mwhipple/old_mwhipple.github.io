@@ -1,10 +1,9 @@
 ---
 title: Hacking on GnuCash (Origin Story)
+post_img:
+  src: gnu.jpg
+  title: A gnu in the wild
 ---
-<div class="post-img fr">
-    <img src="/images/gnu.jpg" title="A gnu in the wild, Kruger National Park"/>
-</div>
-
 I've been a long time on-and-off user of [GnuCash](http://www.gnucash.org)
 but have only recently been starting to really pay attention to my
 finances (age + family = time to start being a grown-up). In that
@@ -17,6 +16,8 @@ access the data directly using R or Python: the data is fairly
 accessible and last I checked
 [GNU Guile](https://www.gnu.org/software/guile/) (the extension
 mechanism that GnuCash uses) seemed to be languishing.
+
+<!--more-->
 
 Although GnuCash data is either stored as gzipped XML or in an RDBMS
 (either of which would be easily read by plenty of tools), the GnuCash
@@ -39,4 +40,4 @@ about Guile. [insert beguile pun]
 In light of this new-found wisdom I'm going to be looking at
 implementing everything I need within GnuCash/Guile and hopefully
 helping move report customization in GnuCash to a place where it
-has less attached disclaimers.
+has less attached disclaimers. :dollar:
