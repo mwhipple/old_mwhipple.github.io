@@ -1,7 +1,7 @@
 ---
 title: Mutable Accumulators in Scheme
 post_img:
-  src: flowers
+  src: flowers.jpg
   title: Flowers mutate and accumulate
 ---
 

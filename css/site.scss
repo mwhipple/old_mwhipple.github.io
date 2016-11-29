@@ -1,3 +1,6 @@
+---
+---
+
 html {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -11,31 +14,34 @@ code {
     font-size: .9em;
     padding: .2em;
 }
+
 pre {
     padding: 1em;
 }
 
-.logo {
-    margin-bottom: 0;
-}
-
-.logo img {
-    width: 250px;
-}
-header h5 {
-    margin: 0;
-}
-
 header {
-    padding: 0em 5em;
+    padding: 0 5em;
     text-align: right;
+
+    h5 {
+	margin: 0;
+    }
+
+    .logo {
+	margin-bottom: 0;
+
+	img {
+	    width: 250px;
+	}
+    }
 }
+
 main {
     padding: 5em;
 }
 
 .post-img {
-    padding: 0em 1em;
+    padding: 0 1em;
     float: right;
 }
 .posts article:nth-child(even) .post-img {

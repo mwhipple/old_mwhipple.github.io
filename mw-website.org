@@ -1,24 +1,33 @@
 * Topics
+** ELB/CLB issues
 ** Telling the truth is hard
+** RSpec granularity
+** Abandon gradle-release-svnkit
+** AOP
+** Jersey Response Handling
 ** Emacs
-*** File Name Cache
+- [ ] File Name Cache
 ** Spock Recipes
 - [ ] Parameter assertion
 - [ ] Async data collection
+- [ ] asserts
 ** TODO GnuCash
 - [ ] option types
 ** TODO cheap drive client wrapper
 ** TODO Travis publishing back from the dead
 ** TODO CompileStatic, groovy dot accessing
 Art of the MOP
-** TODO Sproogle EOL
 ** Statistics
 - [ ] Texas Sharpshooter Fallacy
+** Writing in every language
+- [ ] don't cuddle elses
 * Enhancements
-** TODO Add link to prev/next posts
-** TODO tags
+** TODO Fix pagination links
+** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html
 ** TODO Integrate font-awesome
 ** TODO Add link back to home from post
+** TODO Add link to prev/next posts
+** TODO tags
 ** TODO Add container around excerpt to group next to image
 ** TODO Generate better markup from markdown
 ** TODO About me
@@ -33,4 +42,4 @@ Art of the MOP
 ** TODO AMP
 ** TODO minima?
 ** TODO Footer from sumo blog?
-** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html
+** TODO Get sass working
