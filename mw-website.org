@@ -1,5 +1,8 @@
 * Topics
+** TODO Travis publishing back from the dead
 ** ELB/CLB issues
+** Listify macro
+** RSpec include
 ** Telling the truth is hard
 ** RSpec granularity
 ** Abandon gradle-release-svnkit
@@ -14,7 +17,6 @@
 ** TODO GnuCash
 - [ ] option types
 ** TODO cheap drive client wrapper
-** TODO Travis publishing back from the dead
 ** TODO CompileStatic, groovy dot accessing
 Art of the MOP
 ** Statistics
