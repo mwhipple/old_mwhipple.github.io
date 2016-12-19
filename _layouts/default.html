@@ -3,13 +3,15 @@
 <head>
   <title>Matt Whipple, Software Engineer</title>
   <meta charset="utf-8"/>
-  <!-- <script src="https://use.fontawesome.com/a8cd9d2935.js"></script>-->
+  {% if jekyll.environment != "offline" %}
+  <script src="https://use.fontawesome.com/a8cd9d2935.js"></script>
   <link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css"/>
-  <link rel="stylesheet" href="/css/site.css"/>
-  {% feed_meta %}
+  	href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css"/>
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Noto+Sans"
         rel="stylesheet"/>
+  {% endif %}
+  <link rel="stylesheet" href="/css/site.css"/>
+  {% feed_meta %}
 </head>
 <body>
   <header class="top-bar">
@@ -18,7 +20,7 @@
 	<img src="/images/logo.svg"
 	     alt="Matt Whipple, Software Engineer"/>
       </h1></a>
-      <h5>Writing in a Vacuum</h5>
+      <h5>Soft & Slow Rules</h5>
     </hgroup>
   </header>
   <main>
@@ -27,7 +29,10 @@
 <footer>
   {% include ga.html %}
 </footer>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+{% if jekyll.environment != "offline" %}
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
+<script src="/js/site.js"></script>
+{% endif %}
 </body>
 </html>

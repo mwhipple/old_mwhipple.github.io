@@ -3,6 +3,10 @@ title: Assessing MongoDb Text Search
 post_img:
   src: mongo-hoodie.jpg
   title: Mongo swag
+tags:
+  - mongodb
+  - databases
+  - information-retrieval
 ---
 
 Versions of MongoDB since 2.4 have integrated supported for full-text

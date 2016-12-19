@@ -3,6 +3,9 @@ title: Mutable Accumulators in Scheme
 post_img:
   src: flowers.jpg
   title: Flowers mutate and accumulate
+tags:
+  - scheme
+  - lisp
 ---
 
 Scheme is agnostic about immutability....I prefer it

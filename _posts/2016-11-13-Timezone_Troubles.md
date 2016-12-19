@@ -3,6 +3,8 @@ title: Timezone Troubles
 post_img:
   src: pumpkin.jpg
   title: Timezone shifted coaches
+tags:
+  - java
 ---
 
 Date and time values are ubiquitious in programming (as in the modern

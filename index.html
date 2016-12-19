@@ -4,10 +4,7 @@ title: Home
 <section class="posts">
 {% for post in paginator.posts %}
   <article>
-    <hgroup>
-      <h2>{{ post.title }}</h2>
-      <h4>{{ post.date | date_to_string }}</h4>
-    </hgroup>
+    {% include post_title.html post=post %}
     {% if post.post_img %}
     {% include post_img.html img=post.post_img %}
     {% endif %}

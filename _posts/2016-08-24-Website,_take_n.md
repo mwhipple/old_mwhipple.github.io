@@ -1,8 +1,10 @@
 ---
-title: Website, take n
+title: Website, Take n
 post_img:
   src: joshua-tree.jpg
   title: This site is a desert
+tags:
+  - this-site
 ---
 
 I'm launching a new Web site/blog for some of my work (yay!). It's

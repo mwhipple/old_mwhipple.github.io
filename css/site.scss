@@ -59,3 +59,17 @@ article {
     text-align: center;
     margin: 0 auto;
 }
+
+ul.tags {
+    float: right;
+    li {
+	list-style: none;
+	font-size: small;
+	float: left;
+	margin-right: 1em;
+    }
+}
+
+.is-accordion-submenu-parent > a::after {
+    left: -1rem;
+}

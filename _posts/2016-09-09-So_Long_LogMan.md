@@ -3,6 +3,9 @@ title: So Long LogMan
 post_img:
   src: unfinished-walk.jpg
   title: Good Hope unresolved
+tags:
+  - abandonware
+  - java
 ---
 
 One of my GitHub projects lingering around is

@@ -3,6 +3,9 @@ title: Listify Macro in Scheme
 post_img:
   src: james-sleighjack.jpg
   title: The check-twice macro may come later
+tags:
+  - scheme
+  - lisp
 ---
 
 Having [previously mentioned]({{ site.baseurl }}{% post_url

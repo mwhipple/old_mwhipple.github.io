@@ -3,6 +3,9 @@ title: The Perils of Dropping ACID Transactionality
 post_img:
   src: walter-bishop.jpg
   title: Sometimes dropping helps, othertimes not so much
+tags:
+  - mongodb
+  - databases
 ---
 
 ACID compliant transactionality has been part and parcel of

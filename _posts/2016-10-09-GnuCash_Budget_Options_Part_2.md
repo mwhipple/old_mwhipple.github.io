@@ -3,6 +3,10 @@ title: Hacking on GnuCash (Options, Part 2-Registration)
 post_img:
   src: tasty-options.jpg
   title: Lobster Truffle Mac & Cheese Bites
+tags:
+  - gnucash
+  - scheme
+  - lisp
 ---
 
 In a [previous post]({% post_url 2016-09-12-GnuCash_Budget_Options_Part_1 %})

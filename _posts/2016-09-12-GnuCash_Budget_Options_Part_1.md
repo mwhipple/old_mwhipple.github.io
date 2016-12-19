@@ -3,6 +3,10 @@ title: Hacking on GnuCash (Options, Part 1-Retrieval)
 post_img:
   src: options.jpg
   title: Options on a mountaintop
+tags:
+  - gnucash
+  - scheme
+  - lisp
 ---
 
 As outlined [here]({% post_url 2016-09-01-Hacking_on_GnuCash %}), I'm

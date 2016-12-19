@@ -3,6 +3,8 @@ title: Programming Interviews-Work Down
 post_img:
   src: apple-pie.jpg
   title: Use the imaginary mix
+tags:
+  - interviews
 ---
 
 It can be hard enough to program with a co-worker looking over your

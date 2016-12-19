@@ -3,6 +3,8 @@ title: My Emacs Config
 post_img:
   src: chicken.jpg
   title: Daily chicken
+tags:
+  - emacs
 ---
 
 Emacs has a rich set of built-in functionality but it also has a vast

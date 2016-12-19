@@ -3,6 +3,9 @@ title: Sproogle EOL and Thoughts on Google Closure Templates
 post_img:
   src: birdhouse.jpg
   title: Injection of Spring
+tags:
+  - java
+  - abandonware
 ---
 
 Several years ago I threw together

@@ -1,0 +1,11 @@
+<hgroup>
+  <h2>{{ include.post.title }}</h2>
+  {% if include.post.tags && include.post.tags.length > 0 %}
+  <ul class="tags">
+      {% for tag in include.post.tags %}
+      <li><a href="/tags.html#{{ tag | slugify }}">{{ tag }}</a></li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+  <h4>{{ include.post.date | date_to_string }}</h4>
+</hgroup>

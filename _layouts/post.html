@@ -1,10 +1,7 @@
 ---
 layout: "default"
 ---
-<hgroup>
-  <h2>{{page.title}}</h2>
-  <h4>{{page.date | date_to_string}}</h4>
-</hgroup>
+{% include post_title.html post=page %}
 <article>
   {% if page.post_img %}
     {% include post_img.html img=page.post_img %}

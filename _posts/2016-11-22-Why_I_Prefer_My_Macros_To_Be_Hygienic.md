@@ -3,6 +3,9 @@ title: Why I Prefer My Macros to Be Hygienic
 post_img:
   src: robben-showers.jpg
   title: Prison showers on Robben Island
+tags:
+  - scheme
+  - lisp
 ---
 
 We've all been there...at some fancy dinner party with delightful

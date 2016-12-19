@@ -3,6 +3,9 @@ title: Hacking on GnuCash (Origin Story)
 post_img:
   src: gnu.jpg
   title: A gnu in the wild
+tags:
+  - gnucash
+  - scheme
 ---
 I've been a long time on-and-off user of [GnuCash](http://www.gnucash.org)
 but have only recently been starting to really pay attention to my

@@ -1,8 +1,11 @@
 ---
-title: Working with images from the command line
+title: Working with Images from the Command Line
 post_img:
   src: bay-bridge.jpg
   title: the line about crossing a bridge was inadvertent but appreciated
+tags:
+  - this-site
+  - unix
 ---
 
 This post is mostly regurgitating readily available information:

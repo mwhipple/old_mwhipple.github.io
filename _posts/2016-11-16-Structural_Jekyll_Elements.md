@@ -3,6 +3,9 @@ title: Structural Jekyll Elements
 post_img:
   src: field.jpg
   title: Clear view
+tags:
+  - this-site
+  - jekyll
 ---
 
 Jekyll is a great, simple solution for publishing basic Web
