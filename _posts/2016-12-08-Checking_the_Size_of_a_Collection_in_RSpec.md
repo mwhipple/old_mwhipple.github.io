@@ -56,8 +56,11 @@ test of attempting something similar with the value set to `nil` yields:
        undefined method `length' for nil:NilClass
 {% endhighlight %}
 
-The `NoMethodError` _coincidentally_ fails the test. The feedback also
-happens to be useful...but to highlight the frailty of the logic if
+The `NoMethodError` _coincidentally_ fails the test. The expectation is not
+successfully verifying the condition specified, instead it's failing while
+the attempting to evaluate; so the above actually represents a failure in
+the test rather than the system under test. The feedback seems
+useful...but to highlight how fragile the logic is if
 the code is wrapped with a `rescue` block the test *passes*. In more
 complicated tests where the control flow of the test itself evolves,
 this could lead to loss of useful feedback.
@@ -139,4 +142,12 @@ the built-in matchers that RSpec provides. `have_attributes` is a key
 piece in using RSpec as an expressive testing framework which can
 provide a powerful and expressive set of lean tools which can be used
 directly to keep tests explicit, or smoothly combined to create domain
-specific definitions.
+specific definitions. :dromedary_camel:
+
+#### Update (2016-12-29)
+As a follow up my comment about
+[rspec-collection_matchers](https://github.com/rspec/rspec-collection_matchers)
+being neglected seems likely off base since there was some activity
+shortly after the post (including merging of the linked PR). I still
+prefer `have_attributes` for the other reasons mentioned, but if human
+readability is a goal then that gem may be worth pulling in.
