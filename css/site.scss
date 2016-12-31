@@ -73,3 +73,21 @@ ul.tags {
 .is-accordion-submenu-parent > a::after {
     left: -1rem;
 }
+
+.social {
+    text-align: center;
+}
+
+.prev-next {
+    li {
+	display: inline-block;
+    }
+
+    .prev {
+	float: left;
+    }
+
+    .next {
+	float: right;
+    }
+}

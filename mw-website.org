@@ -32,11 +32,11 @@ Art of the MOP
 - [ ] constructor initializers
 - [ ] idiomatic vs idiosyncratic
 * Enhancements
+** TODO Add link to prev/next posts
 ** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html
 ** TODO Add navbar
 ** TODO Integrate font-awesome
 ** TODO Add link back to home from post
-** TODO Add link to prev/next posts
 ** TODO Add container around excerpt to group next to image
 ** TODO About me
 ** TODO Foundation

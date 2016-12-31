@@ -7,6 +7,27 @@ layout: "default"
     {% include post_img.html img=page.post_img %}
   {% endif %}
   {{content}}
-  {% include tweet.html %}
+  <div class="social">
+    {% include tweet.html %}
+  </div>
 </article>
+<footer>
+<nav class="prev-next">
+  <ul>
+    {% if page.previous %}
+    <li class="prev"><a href="{{ page.previous.url }}">
+	<i class="fa fa-chevron-left"></i>
+	{{ page.previous.title }}
+    </li>
+    {% endif %}
+    {% if page.next %}
+    <li class="next"><a href="{{ page.next.url }}">
+	{{ page.next.title }}
+	<i class="fa fa-chevron-right"></i>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+</footer>
+
 {% include disqus.html %}

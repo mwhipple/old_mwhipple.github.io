@@ -1,3 +1,5 @@
 {% if jekyll.environment != "offline" %}
-<a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}&url={{ page.url | absolute_url | cgi_escape }}">
+  <i class="fa fa-lg fa-twitter-square" aria-hidden="true"></i>
+</a>
 {% endif %}
