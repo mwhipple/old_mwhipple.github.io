@@ -118,4 +118,4 @@ It could be useful for smaller pieces in a larger application,
 particularly if other libraries that support rx are in the mix, but most
 likely a dedicated concurrency framework would provide more help in
 terms of control and design (if familiarity with rx exists then it
-could provide a useful abstraction layer on top of that).
+could provide a useful abstraction layer on top of that). :tophat:

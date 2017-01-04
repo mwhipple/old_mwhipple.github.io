@@ -28,11 +28,11 @@ recursively...so it's a perfect candidate for a macro.
 
 I'm trying to allow for small configuration definition that allows code like:
 
-```Scheme
+{% highlight scheme %}
 (defopts group1
   ('opt1 text "default")
   ('opt2 boolean #f))
-```
+{% endhighlight %}
 
 where the outer function provides additional context which will be
 used while evaluating the nested lists, so they should not be left to

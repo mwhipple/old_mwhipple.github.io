@@ -1,6 +1,4 @@
 * Topics
-** rx Adoption
-** DDD in Kotlin
 ** Valerie
 - [ ] Meet Valerie
 - [ ] vs RSpec
@@ -14,6 +12,7 @@
 ** Abandon gradle-release-svnkit
 ** AOP
 ** Jersey Response Handling
+** Dropwizard healthcheck listening
 ** Emacs
 - [ ] File Name Cache
 ** Spock Recipes
@@ -32,22 +31,16 @@ Art of the MOP
 - [ ] constructor initializers
 - [ ] idiomatic vs idiosyncratic
 * Enhancements
-** TODO Add link to prev/next posts
 ** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html
 ** TODO Add navbar
-** TODO Integrate font-awesome
-** TODO Add link back to home from post
 ** TODO Add container around excerpt to group next to image
 ** TODO About me
-** TODO Foundation
 ** TODO Contact footer
 ** TODO rakefile dev task
 ** TODO resume
 ** TODO travis?
 ** TODO jekyll SEO tag plugin
 ** TODO links directly to github sources
-** TODO Emoji
 ** TODO AMP
 ** TODO minima?
 ** TODO Footer from sumo blog?
-** TODO Get sass working
