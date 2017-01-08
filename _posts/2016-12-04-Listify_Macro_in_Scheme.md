@@ -10,7 +10,7 @@ tags:
 
 Having [previously mentioned]({{ site.baseurl }}{% post_url
 2016-11-22-Why_I_Prefer_My_Macros_To_Be_Hygienic %})
-that hygenic macros in Scheme can help enforce a separation of
+that hygienic macros in Scheme can help enforce a separation of
 responsibilities that leaves most of the work to be done at evaluation
 time, now I'll provide an example of what a macro can be useful for.
 
@@ -61,7 +61,7 @@ another list while avoiding evaluation of that list...so time for a macro.
 For basic demonstration I'll setup a couple variables that will be
 referenced within the created list.
 
-```Scheme
+{% highlight scheme %}
 (define a 1)
 (define b "foo")
 
@@ -75,7 +75,7 @@ $ = (a b)
 $ = (a b)
 `(,a ,b)
 $ = (1 "foo")
-```
+{% endhighlight %}
 
 The basic version of the macro would therefore take a list as an argument
 and pass it to `list` so that it is not evaluated but the sexps within
@@ -90,28 +90,28 @@ than operating on a list which has been previously defined.
 I'll quickly do a more typical `defmacro` style macro for comparison.
 Getting `list` into the defined list could be handled easily using splicing:
 
-```Scheme
+{% highlight scheme %}
 (defmacro mlistify (l)
   `(list ,@l))
 
 (mlistify (a b))
 $ = (1 "foo")
-```
+{% endhighlight %}
 
-To demonstrate an advatange of hygienic macros, note that the above would break
+To demonstrate an advantage of hygienic macros, note that the above would break
 if the binding for `list` were changed
 as the environment within `defmacro` is not closed:
 
-```Scheme
+{% highlight scheme %}
 (let ([list "uh oh"])
   (mlistify (a b)))
 ERROR: In procedure uh oh:
 ERROR: Wrong type to apply: "uh oh"
-```
+{% endhighlight %}
 
 ### Hygienic Solution
 
-This can be also be done fairly easily using a hygenic `define-syntax`
+This can be also be done fairly easily using a hygienic `define-syntax`
 based solution which avoids the possible loss of referential
 transparency. `define-syntax` does not provide splicing and is
 generally oriented more towards lower level syntactic elements, so
@@ -121,31 +121,32 @@ it was not immediately obvious to me how to simply mutate an existing list
 keywords, sexps...and braces; by including the braces within the
 pattern the contents within the list get bound to the provided identifiers (similar to destructuring):
 
-```Scheme
+{% highlight scheme %}
 (define-syntax listify
   (syntax-rules ()
     ((_ (l ...))
 	 (list l ...))))
-```
+{% endhighlight %}
+
 So by wrapping `l ...` in braces they get assigned the contents of the
 list which can then be used within the new list which now contains the
 call to `list` (list `list` listy `list`).
 To demonstrate the improved safety of the hygienic
 system, the same ugliness that broke `defmacro` doesn't phase `define-syntax`:
 
-```Scheme
+{% highlight scheme %}
 (let ([list "uh oh"])
   (listify (a b)))
 
 $ = (1 "foo")
-```
+{% endhighlight %}
 
 That macro only handles a single list however...having to call it on
 each list certainly isn't much of an advantage over just using `list`
 directly so the larger goal would be to handle multiple passed lists
 which can be handled with recursion:
 
-```Scheme
+{% highlight scheme %}
 (define-syntax listify
   (syntax-rules ()
     ((_)
@@ -155,14 +156,14 @@ which can be handled with recursion:
 
 (listify (a b) (b a))
 $ = ((1 "foo") ("foo" 1))
-```
+{% endhighlight %}
 
 This provides a nice baseline for declarative actual parameters which can be
 passed into functions to be sliced up a bit. For a painfully contrived
 example we'll pretend we want to write a list of unary functions with their
 arguments first:
 
-```Scheme
+{% highlight scheme %}
 ;; Keep the logic in standard functions
 (define (backwards l)
   (apply (cadr l) (list (car l))))
@@ -177,7 +178,8 @@ arguments first:
 (define dumb '(a))
 (go-back (dumb list?) (dumb null?))
 $ = (#t #f)
-```
+{% endhighlight %}
+
 Hopefully I'll get around to actually pushing some of my lurking work
 to GitHub in the not too distant future (and hopefully it seems less
 inane than the example provided). :christmas_tree:

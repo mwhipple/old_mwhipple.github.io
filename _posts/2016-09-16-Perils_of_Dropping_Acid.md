@@ -2,7 +2,7 @@
 title: The Perils of Dropping ACID Transactionality
 post_img:
   src: walter-bishop.jpg
-  title: Sometimes dropping helps, othertimes not so much
+  title: Sometimes dropping helps, other times not so much
 tags:
   - mongodb
   - databases
@@ -37,7 +37,7 @@ with mostly
 style behavior (the particular logic involved operations involving
 multiple documents which is outside of provided transactional boundaries).
 
-By the end of the work I discovered a newfound appreciation for
+By the end of the work I discovered a new-found appreciation for
 ACID transactionality: designing some core pieces of your business
 logic in a way that avoids what can be very clunky transactionality
 can be a lot of fun and provide valuable insight into your business

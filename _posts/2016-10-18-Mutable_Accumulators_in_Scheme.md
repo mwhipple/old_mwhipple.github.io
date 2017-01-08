@@ -53,7 +53,7 @@ the internal state is updated accordingly (the implementation is
 much simpler than the description). Right now I'm abusing the name
 `accumulator` for the pattern until I think of/steal better names.
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define (accumulator f init)
   (let* ([accum init])
     (define* (updater #:optional val)
@@ -74,7 +74,9 @@ around (squint a little).
 The mentioned table coordinate tracking is done with objects like
 like:
 
-`(col@ (accumulator + firstcol))`.
+{% highlight scheme %}
+(col@ (accumulator + firstcol))`.
+{% endhighlight %}
 
 The present
 column could then be retrieved with `(col@)` and the value incremented

@@ -5,15 +5,17 @@
 - [ ] vs JavaBean
 - [ ] 2 Phases
 ** Travis publishing back from the dead
+** Hystrix <-> AWS
 ** ELB/CLB issues
-** RSpec include
+** RSpec
+- [ ] include
+- [ ] organizing contexts/subjects
 ** Telling the truth is hard
-** RSpec granularity
-** Abandon gradle-release-svnkit
 ** AOP
 ** Jersey Response Handling
 ** Dropwizard healthcheck listening
 ** Emacs
+- [ ] bind-key
 - [ ] File Name Cache
 ** Spock Recipes
 - [ ] Parameter assertion
@@ -32,7 +34,7 @@ Art of the MOP
 - [ ] idiomatic vs idiosyncratic
 * Enhancements
 ** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html
-** TODO Add navbar
+** TODO Add blog title (needs some CSS tweaking)
 ** TODO Add container around excerpt to group next to image
 ** TODO About me
 ** TODO Contact footer

@@ -28,7 +28,7 @@ scheming to try to make that a little more readable (for me at least).
 
 A standard option look-up is some derivative of:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (gnc:option-value
   (gnc:lookup-option
     (gnc:report-options report-obj)
@@ -48,7 +48,7 @@ What I want is a single handle that can be used to keep more of
 that logic bundled together (a.k.a an object). We can start with some
 basic dispatching logic to get back the name for the created object:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define (opt raw-name section)
   (let ((name (N_ raw-name))) ;internationalize
     (define (get-name) name)
@@ -63,7 +63,11 @@ basic dispatching logic to get back the name for the created object:
 The above creates a closure around the provided name and section,
 and returns a function which will dispatch
 to a nested function within the closure based on the first parameter, for
-instance: `(define opt-foo (opt "Foo" (N_ "Sec1"))) (opt-foo 'name)`.
+instance: 
+
+{% highlight scheme %}
+(define opt-foo (opt "Foo" (N_ "Sec1"))) (opt-foo 'name)`.
+{% endhighlight %}
 
 There may be other, possibly better, options to handle the object style
 behavior started above such as using either records or GOOPS...but as
@@ -81,7 +85,7 @@ defining a `value` method only needs a new entry in the `case`
 and the new nested method which is basically the same code from the
 beginning of this post but using the variables bound within the closure:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define (opt raw-name section)
   (let ((name (N_ raw-name))) ;internationalize
     (define (get-name) name)
@@ -110,7 +114,7 @@ running amok all over the global namespace and allow for some basic
 sanity checking, so we could also enclose a report object and an
 option container (using an alist):
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define (opts-for-report r opts)
   (lambda (o)
     (let ((opt (assoc-ref opts o)))
@@ -119,7 +123,7 @@ option container (using an alist):
 {% endhighlight %}
 
 Which can be used like:
-{% highlight Scheme %}
+{% highlight scheme %}
 (define report-opt (opts-for-report report-obj my-opts))
 (report-opt 'foo)
 {% endhighlight %}

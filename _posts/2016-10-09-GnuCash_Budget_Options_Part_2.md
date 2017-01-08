@@ -27,18 +27,22 @@ grouping.
 
 Much of the standard registration code calls a function of the pattern:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (gnc:register-option
    opt-collection created-opt)
 {% endhighlight %}
 
 Where `opt-collection` is all of the options for a given report
 definition and `created-opt` is a specific option. In terms of a
-method call on an options object this maps to something like
-`(opt-object 'register~ opt-collection)` so, working from the outside
+method call on an options object this maps to something like:
+{% highlight scheme %}
+(opt-object 'register~ opt-collection)
+{% endhighlight %}
+
+Working from the outside
 in, we can extend the dispatch code previously created accordingly:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (lambda args
   (apply
     (case (car args)
@@ -60,7 +64,7 @@ use an implementation specific factory function that takes the option
 information as arguments and returns the function to be used
 as `register!`. The final result of the abstract `opt-template` is:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define (opt-template reg-factory)
   (lambda* (raw-name section . p)
     (let* ((name (N_ raw-name))
@@ -91,7 +95,7 @@ is the necessary parameter, so this can be
 expressed by a function which calls the above and takes that
 parameter:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define (opt-template-simple f)
   (opt-template
    (lambda* (name section . p)
@@ -103,7 +107,7 @@ parameter:
 Now those standard types can be expressively defined in terms of their
 `gnc:` provided functions such as:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define opt-boolean (opt-template-simple gnc:make-simple-boolean-option))
 {% endhighlight %}
 
@@ -120,7 +124,7 @@ subservience outside of registration.
 The options can now be defined in an alist so they can be retrieved as
 outlined in the previous post.
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (define opts
   `((rollup-budget?
      ,(opt-boolean "Roll up budget amounts to parent" gnc:pagename-display "s4"
@@ -133,7 +137,7 @@ outlined in the previous post.
 
 All of which can be registered using:
 
-{% highlight Scheme %}
+{% highlight scheme %}
 (for-each
   (lambda (e)
     ((cadr e) 'register! options))
