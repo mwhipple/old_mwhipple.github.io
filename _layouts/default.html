@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>{{ page.title }} - Matt Whipple, Software Engineer</title>
-  <meta charset="utf-8"/>
-  {% if jekyll.environment != "offline" %}
-  <script src="https://use.fontawesome.com/a8cd9d2935.js"></script>
-  <link rel="stylesheet"
-  	href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Noto+Sans"
-        rel="stylesheet"/>
-  {% endif %}
-  <link rel="stylesheet" href="/css/site.css"/>
-  {% feed_meta %}
-</head>
-<body>
-  <header class="top-bar">
-    <hgroup class="top-bar-left">
-      <a href="/"><h1 class="logo">
-	  <img src="/images/logo.svg"
-	       alt="Matt Whipple, Software Engineer"/>
-      </h1></a>
-      <h5>Pathological Software Engineering</h5>
-    </hgroup>
-    <nav class="top-bar-right">
-      <ul class="menu">
-	<li><a href="/">Home/Posts</a></li>
-	<li><a href="/tags.html">Tags</a></li>
-      </ul>
+  <head>
+    <title>{{ page.title }} - Matt Whipple, Software Engineer</title>
+    <meta charset="utf-8"/>
+    {% if jekyll.environment != "offline" %}
+    <script src="https://use.fontawesome.com/a8cd9d2935.js"></script>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Noto+Sans"
+          rel="stylesheet"/>
+    {% endif %}
+    <link rel="stylesheet" href="/css/site.css"/>
+    {% feed_meta %}
+  </head>
+  <body>
+    <div data-sticky-container>
+      <header class="top-bar" data-sticky data-options="marginTop:0"
+              style="width:100%">
+        <hgroup class="top-bar-left">
+          <a href="/"><h1 class="logo">
+              <img src="/images/logo.svg"
+                   alt="Matt Whipple, Software Engineer"/>
+          </h1></a>
+          <h5>Pathological Software Engineering</h5>
+        </hgroup>
+        <nav class="top-bar-right">
+          <ul class="menu">
+            <li><a href="/">Home/Posts</a></li>
+            <li><a href="/tags.html">Tags</a></li>
+          </ul>
+        </nav>
+      </header>
     </div>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-<footer>
-  {% include ga.html %}
-</footer>
-{% if jekyll.environment != "offline" %}
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
-<script src="/js/site.js"></script>
-{% endif %}
-</body>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      {% include ga.html %}
+    </footer>
+    {% if jekyll.environment != "offline" %}
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
+    <script src="/js/site.js"></script>
+    {% endif %}
+  </body>
 </html>

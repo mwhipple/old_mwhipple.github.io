@@ -1,9 +1,24 @@
+* Queue
+** Valerie Inroduction
+- [ ] Valerie - feedback, composition, traversal, property based
+- [ ]
+- [ ]
+** Modeling Lisp in Java
+** Jersey Unit Testing in Spock
+- [ ] Jersey unit testing
+
 * Topics
+
+** ECR gradle plugin
 ** Valerie
-- [ ] Meet Valerie
 - [ ] vs RSpec
 - [ ] vs JavaBean
 - [ ] 2 Phases
+** Drive workflow
+** Docker adoption
+** Logging docker
+** Managing multiple environments with Terraform
+** Unit testing Jersey
 ** Travis publishing back from the dead
 ** Hystrix <-> AWS
 ** ELB/CLB issues
@@ -15,14 +30,14 @@
 ** Jersey Response Handling
 ** Dropwizard healthcheck listening
 ** Emacs
-- [ ] bind-key
+- [ ] Drilling down
+- [ ] Whitespace highlighting
+- [ ] bind-keys
 - [ ] File Name Cache
+- [ ] gh-capture
 ** Spock Recipes
-- [ ] Parameter assertion
+
 - [ ] Async data collection
-- [ ] asserts
-** GnuCash
-- [ ] option types
 ** cheap drive client wrapper
 ** CompileStatic, groovy dot accessing
 Art of the MOP
@@ -33,8 +48,9 @@ Art of the MOP
 - [ ] constructor initializers
 - [ ] idiomatic vs idiosyncratic
 * Enhancements
+** TODO AMP
+** Sites to steal from
 ** TODO start stealing from: http://foundation.zurb.com/templates-previews-sites-f6/blog-simple.html
-** TODO Add blog title (needs some CSS tweaking)
 ** TODO Add container around excerpt to group next to image
 ** TODO About me
 ** TODO Contact footer
@@ -43,6 +59,5 @@ Art of the MOP
 ** TODO travis?
 ** TODO jekyll SEO tag plugin
 ** TODO links directly to github sources
-** TODO AMP
 ** TODO minima?
 ** TODO Footer from sumo blog?
